@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;1,500&family=PT+Serif:wght@400;700&display=swap');
+.container-cookies{
+    width: 1600px;
+    margin: auto;
+}
+.subcontainer{
+    width: 85%;
+    margin: auto;
+}
+.subcontainer h3{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: xx-large;
+    color: azure;
+}
+#cookies{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    color: white;
+    background: black;
+    z-index: 100;
+    display: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.cookies{
+    min-height: 70px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap:wrap;
+    gap: 10px;
+    font-size: large;
+}
+.cookies a{
+    color: yellow;
+    text-decoration: none;
+    font-weight: 500;
+    font-style: italic;
+}
+#cookies-btn{
+    border-radius: 15px;
+    padding: 8px 12px 8px 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 3px solid white;
+    background: black;
+    color: aliceblue;
+}
+
+#cookies-btn:hover{
+    border: 3px solid yellow;
+    transition: 0.5s ease-in-out;
+}
+@media(max-width:1600px){
+    .container{
+        width: 100%;
+    }
+}
+@media(max-width:1024px){
+    .cookies{
+        padding: 10px 0;
+    }
+}

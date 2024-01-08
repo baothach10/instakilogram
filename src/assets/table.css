@@ -1,0 +1,54 @@
+.action-btn {
+    display: inline-block;
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    table-layout: fixed;
+    min-width: 900px;
+    border-collapse: collapse;
+}
+
+thead th {
+    position: sticky;
+    top: 0;
+    font-size: 16px;
+}
+
+th,td {
+    border-bottom: 0.5px solid #ababab;
+    word-break: break-all;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+td img {
+    height: 100px;
+    width: 100px;
+}
+tr:hover td {
+    color:#4c46ff;
+    background-color: #f7fbff;
+}
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+   box-shadow: inset 0 0 9px rgba(0,0,0,0.3);
+   border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  box-shadow: inset 0 0 9px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
